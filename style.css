@@ -975,7 +975,7 @@ position: relative;
 }
 .exeed-price{
     position: relative;
-    top: 80px;
+    top: 0px;
 }
 
 .exeed-price img{
@@ -1022,13 +1022,13 @@ position: relative;
 .exeed-hub h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #f0c14b;
+    color: white;
 }
 
 .exeed-brochure a, .exeed-manual a {
     display: inline-block;
-    background: #f0c14b;
-    color: #000;
+    background:#1b1b1b;
+    color: white;
     padding: 12px 40px;
     border-radius: 30px;
     margin: 10px;
@@ -1126,10 +1126,29 @@ position: relative;
     }
 }
 
-.video-title {
-    position: relative;
-    top: 120px;
+.video-title {  
     color: white;
     font-size: 30px;
     text-align: center;
+    
+}
+.line-2 {
+    width: 40%;
+    height: 3px;
+    z-index: 1000;
+    background:#CC8B63; 
+    border-radius: 5px;
+    margin: 20px auto;
+    position: relative;
+    top: 30px;
+}
+
+.exeed-hub h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+    top: 20px;
 }
